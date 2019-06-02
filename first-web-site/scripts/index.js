@@ -2,8 +2,10 @@ const $myButton = document.querySelector("button");
 const $nomePessoa = prompt("Olá, qual é o seu nome?");
 const $num1 = prompt("Digite um número:");
 const $num2 = prompt("Digite outro número:");
-
+const $paragra = document.querySelector("p");
 const soma = Number($num1) + Number($num2);
+
+$paragra.innerHTML = `By ${$nomePessoa}`;
 
 alert("A soma dos valores é: " + soma);
 alert(`Seja bem vindo, ${$nomePessoa}`);

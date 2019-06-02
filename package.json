@@ -1,0 +1,15 @@
+{
+  "name": "HTML-CSS-JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Leozartino/HTML-CSS-JS.git",
+  "author": "Leozartino <leozartino@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
